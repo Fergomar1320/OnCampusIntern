@@ -7,7 +7,7 @@ const teacherSchema = new Schema ({
     mail: { type: String, required: true, trim: true},
     office: { type: String, required: true, trim: true},
     area: { type: String, required: true, trim: true},
-    possition: { type: String, required: true, trim: true},
+    position: { type: String, required: true, trim: true},
 }, {
     timestamps: true,
 });
