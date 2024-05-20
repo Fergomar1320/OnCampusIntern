@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 
 const teacherSchema = new Schema ({
     name: { type: String, required: true, trim: true},
+    lastName: { type: String, required: true, trim: true},
     mail: { type: String, required: true, trim: true},
     office: { type: String, required: true, trim: true},
     area: { type: String, required: true, trim: true},

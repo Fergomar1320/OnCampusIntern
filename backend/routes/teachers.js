@@ -9,6 +9,7 @@ router.route('/').get((req,res) =>{
 
 router.route('/add').post((req, res) =>{
     const name = req.body.name;
+    const lastName = req.body.lastName;
     const mail = req.body.mail;
     const office = req.body.office;
     const area = req.body.area;
@@ -16,11 +17,13 @@ router.route('/add').post((req, res) =>{
 
     const newTeacher = new Teacher({
         name,
+        lastName,
         mail,
         office,
         area,
         position,
     });
+
     newTeacher.save()
         .then(() => res.json('Teacher Added!'))
         .catch(err => res.status(400).json('Error: ' + err));
