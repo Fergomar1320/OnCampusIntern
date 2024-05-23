@@ -1,0 +1,80 @@
+[class^="col-"] {
+    margin: 0;
+    padding: 5px;
+}
+
+.card{
+    border-radius: 25px;
+    border: none;
+}
+
+.card-body{
+    margin: 0;
+    padding: 0;
+    background-color: none ;
+}
+
+.services-card{
+    padding: 8px;
+    height: 80vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.exit-card{
+    margin-top: 5px;
+    padding: 8px;
+    height: 9vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    background-color: #DC3545;
+    text-align: center;
+    display: flex;
+}
+
+.featured-card{
+    padding: 8px;
+    height: 55vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    text-align: center;
+    background-color: #5e5e5e;
+}
+
+.directory-card{
+    margin-top: 5px;
+    padding: 8px;
+    height: 34vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.agenda-card{
+    padding: 8px;
+    height: 30vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.repo-card{
+    margin-top: 5px;
+    padding: 8px;
+    height: 59vh;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.image{
+    margin: 15px;
+    width: 10vh;
+}
